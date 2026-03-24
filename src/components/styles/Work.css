@@ -165,7 +165,7 @@
     font-size: 50px;
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 900px) {
   .work-box {
     width: 350px;
     padding: 30px;
@@ -173,6 +173,26 @@
   .work-flex {
     margin-left: -30px;
     padding-right: 45px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .work-box {
+    width: 100vw;
+    padding: 30px 20px;
+  }
+  .work-flex {
+    margin-left: 0;
+    padding-right: 20px;
+  }
+  .work-section h2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .work-title h3 {
+    font-size: 28px;
+  }
+  .work-info h4 {
+    font-size: 14px;
   }
 }
 
